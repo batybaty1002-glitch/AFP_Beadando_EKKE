@@ -1,0 +1,6 @@
+@AFP_Beadando_EKKE_HostAddress = http://localhost:5012
+
+GET {{AFP_Beadando_EKKE_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
