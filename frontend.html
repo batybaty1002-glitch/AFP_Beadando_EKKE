@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>To-Do List</title>
+
+    <link rel="stylesheet" href="frontend.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>TO-DO List</h1>
+
+        <div class="board">
+
+            <!-- TO-DO -->
+            <div class="column">
+                <div class="column-header">
+                    <h2>To-do</h2>
+                    <button class="add-button" data-status="to-do">Add</button>
+                </div>
+
+                <div
+                    class="task-list"
+                    id="todo-list"
+                    data-status="to-do">
+                </div>
+            </div>
+
+
+            <!-- IN PROGRESS -->
+            <div class="column">
+                <div class="column-header">
+                    <h2>In progress</h2>
+                    <button class="add-button" data-status="in-progress">Add</button>
+                </div>
+
+                <div
+                    class="task-list"
+                    id="in-progress-list"
+                    data-status="in-progress">
+                </div>
+            </div>
+
+
+            <!-- DONE -->
+            <div class="column">
+                <div class="column-header">
+                    <h2>Done</h2>
+                    <button class="add-button" data-status="done">Add</button>
+                </div>
+
+                <div
+                    class="task-list"
+                    id="done-list"
+                    data-status="done">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="frontend.js"></script>
+
+</body>
+</html>
