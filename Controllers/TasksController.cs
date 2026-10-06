@@ -11,8 +11,8 @@ namespace AFP_Beadandó_EKKE.Controllers
         // amíg nem kötünk be adatbázist.
         private static readonly List<TaskItem> Tasks = new()
         {
-            new TaskItem { Id = 1, Title = "Első feladat", Description = "Backend megírása", Status = "ongoing" },
-            new TaskItem { Id = 2, Title = "Második feladat", Description = "Frontend összekötése", Status = "planned" }
+            new TaskItem { Id = 1, Title = "Első feladat", Description = "Backend megírása", Status = "in-progress" },
+            new TaskItem { Id = 2, Title = "Második feladat", Description = "Frontend összekötése", Status = "to-do"  }
         };
 
         // 1. GET: api/tasks (Összes lekérése)
